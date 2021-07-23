@@ -141,9 +141,9 @@ The Jaccard similarity is a statistic used to gauge the similarity of data sets.
 
 This is measured as the similarity of two finite data sets (A,B) and is defined by the size of the intersection (<img src="https://render.githubusercontent.com/render/math?math=| A \cup B|">). The equation for Jaccard similarity is given by
 
-$ \begin{equation} J(A,B) = \frac{|A\cap B|}{|A| + |B| + |A\cap B|}. \end{equation}$
+<img src="https://render.githubusercontent.com/render/math?math= J(A,B) = \frac{|A\cap B|}{|A| + |B| + |A\cap B|}">
 
-These numbers are calculated between $0 \leq J(A,B) \leq 1$.
+These numbers are calculated between <img src="https://render.githubusercontent.com/render/math?math=0 \leq J(A,B) \leq 1">.
 
 ```python
 def get_jaccard_sim(str1, str2):
