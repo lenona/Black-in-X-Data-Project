@@ -139,9 +139,9 @@ new_df['name_user'] = new_df['Name'] + new_df['username']
 ### 4. Calculate the Jaccard Similarity
 The Jaccard similarity is a statistic used to gauge the similarity of data sets.
 
-This is measured as the similarity of two finite data sets (A,B) and is defined by the size of the intersection ($| A \cup B|$). The equation for Jaccard similarity is given by
+This is measured as the similarity of two finite data sets (A,B) and is defined by the size of the intersection (<img src="https://render.githubusercontent.com/render/math?math=| A \cup B|">). The equation for Jaccard similarity is given by
 
-$$ \begin{equation} J(A,B) = \frac{|A\cap B|}{|A| + |B| + |A\cap B|}. \end{equation}$$
+$ \begin{equation} J(A,B) = \frac{|A\cap B|}{|A| + |B| + |A\cap B|}. \end{equation}$
 
 These numbers are calculated between $0 \leq J(A,B) \leq 1$.
 
